@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <script defer src="https://kit.fontawesome.com/7157ae1e66.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <title>CodersCamp | Projekt 1 - HTML i CSS</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo"> <span class="logo-text"> Dev </span>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="images.hamburger.png"></button>
+                <ul>
+                    <li><a href="#about-me-section">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="body-header">
+            <div class="body-header-title">
+              <h1>Welcome!</h1>
+              <p>My name is Designer.</p>
+            </div>
+            <div class="body-header-social-media">
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter social-icons"></i>
+              </a>
+              <a href="https://linkedin.com">
+                <i class="fab fa-linkedin-in social-icons"></i>
+              </a>
+              <a href="https://github.com">
+                <i class="fab fa-github social-icons"></i>
+              </a>
+              <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f social-icons facebook-icon"></i>
+              </a>
+            </div>
+            <div class="body-header-layer"></div>
+          </header>
+      
+          <section class="title">
+            <h2 class="title__paragraph">I am happy to help you with any problem!</h2>
+            <div class="title__container">
+              <button class="title__button">Contact me!</button>
+              <button class="title__button">Check my CV</button>
+            </div>
+          </section>
+          
+          <section class="about__me" id="about-me-section">
+            <div>
+              <div class="gray__bg">
+                <h2>About me</h2>
+              </div>
+              <div class="main__box">
+                <div>
+                  <img src="images/avatar.png" alt="avatar" />
+                </div>
+                <div class="person__data">
+                  <p>Full&nbspName:<span>  Designer</span></p>
+                  <p>Age:<span>  21 Years</span></p>
+                  <p>Profile:<span>  Fullstack</span></p>
+                  <p>Telephone:<span>  +48 123-456-789</span></p>
+                  <p>Email:<span>  night-coding@dev.com</span></p>
+                </div>
+                <div class="person__description">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, corporis eveniet voluptatem deleniti dicta delectus amet quaerat explicabo necessitatibus velit fugit deserunt aspernatur assumenda esse magni? Harum facilis sed neque omnis fugit at ex molestias incidunt eius rerum! Dolores, quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ullam, soluta non nesciunt suscipit repudiandae sint quisquam impedit odio aut blanditiis vitae!</p>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <section id="skills">
+            <div class="section-title">
+              <h2 >Skills</h2>
+            </div>
+            <div id="skill-box-container">
+              <div class="skill-box">
+                <img class="skill-img" src="images/UX-UI.png" alt="UX-UI" />
+                <p class="skill-name">UX/UI</p>
+                <p class="skill-description">Figma</p>
+              </div>
+              <div class="skill-box" id="middle-box">
+                <img class="skill-img" src="images/Front_End.png" alt="Front_End" />
+                <p class="skill-name">Front End</p>
+                <p class="skill-description">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="skill-box">
+                <img class="skill-img" src="images/Back_End.png" alt="Back_End" />
+                <p class="skill-name">Back End</p>
+                <p class="skill-description">PHP, Node.js</p>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio" id="portfolio-section">
+            <h2>Portfolio</h2>
+            <div class="portfolio__container">
+                <div class="portfolio__imgContainer"><img class="portfolio__image" src="./images/work-abroad-unspl.jpg"       alt="spotkanie w biurze">
+                  <div class="portfolio__overlay">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus sapiente, modi nostrum ducimus suscipit placeat.</p>
+                    <button>View</button>
+                  </div>
+                </div>
+                <div class="portfolio__imgContainer"><img class="portfolio__image" src="./images/20180619_150208-1.jpg" alt="rośliny ozdobne">
+                  <div class="portfolio__overlay">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus sapiente.</p>
+                    <button>View</button>
+                  </div>
+                </div>
+                <div class="portfolio__imgContainer"><img class="portfolio__image" src="./images/RAW-BEETROOT-MINT.jpg" alt="kolorowa sałatka">
+                  <div class="portfolio__overlay">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus sapiente, modi nostrum ducimus suscipit placeat.</p>
+                    <button>View</button>
+                  </div>
+                </div>
+                <div class="portfolio__imgContainer"><img class="portfolio__image" src="./images/32739439685_8ac3345836_b.jpg" alt="minimalistyczne lobby">
+                  <div class="portfolio__overlay">
+                    <h3>Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus sapiente.</p>
+                    <button>View</button>
+                  </div>
+                </div>
+                <div class="portfolio__imgContainer"><img class="portfolio__image" src="./images/porady-grafiki_10_u1.jpg" alt="pokój dzienny">
+                  <div class="portfolio__overlay">
+                    <h3>Design project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus sapiente, modi nostrum ducimus.</p>
+                    <button>View</button>
+                  </div>
+                </div>
+            </div>
+            </section>
+            <section class="contactUs" id="contact">
+              <h2>Contact us</h2>
+              <div class="contactUs__container">
+                  <div class="contactUs__footer">
+                      <img src="./images/send-svg.svg" alt="wyślij wiadomość">
+                      <p class="contactUs__paragraph">Please describe your question.<br>Send me a message and I will<br> answer you as soon as possible! </p>
+                      <div class="contactUs__socials">
+                        <i class="fab fa-twitter social-icons"></i>
+                        <i class="fab fa-linkedin-in social-icons"></i>
+                        <i class="fab fa-github social-icons"></i>
+                        <i class="fab fa-facebook-f social-icons facebook-icon"></i>
+                      </div>
+                      <p class="contactUs__paragraph"><strong>Designer<br>
+                          Poland, Wrocław</strong><br>ul. Tęczowa 12/3 50-000<br>
+                          +48 123-456-789<br>
+                          <a href="mailto:night-coding@dev.com">night-coding@dev.com</a>
+                      </p>
+                      <div class="contactUs__polygon"></div>
+                  </div>
+                  <div class="contactUs__form">
+                    <h3 class="message__title">Let's start!</h3>
+              <form class="form" action="#" method="#">
+                  <div class="form__wrapper">
+                    <label class="form__label" for="name">
+                      <input class="form__input" type="text" name="name" id="name" placeholder="Name" pattern="[a-zA-Z]{3,}" required>
+                    </label> 
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="mail">
+                      <input class="form__input" type="email" name="mail" id="mail" placeholder="Your e-mail adress" required>
+                    </label>
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="topic">
+                      <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic" required>
+                    </label>
+                  </div>
+                  <div class="form__wrapper">
+                    <label class="form__label" for="comments">
+                      <textarea class="form__comments" id="comments" placeholder="Message" rows="6"></textarea>
+                    </label>
+                  </div>
+                  <input class="form__button" type="submit" value="Send">
+              </form>
+                  </div>
+              </div>
+              </section>
+          <footer></footer>
+    </body>
+</html>
+
+
