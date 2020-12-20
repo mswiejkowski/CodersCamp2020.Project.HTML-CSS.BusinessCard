@@ -1,0 +1,119 @@
+.about__me > div {
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about__me > div::before {
+  content: "";
+  left: -20%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #fafaff;
+}
+
+.gray__bg > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #222;
+}
+
+.main__box {
+  background-color: white;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__box > div > img {
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-bottom: 85px;
+}
+
+.person__data {
+  width: 40%;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.person__data > p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #222;
+}
+
+.person__data > p > span {
+  color: #ffc53d;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.person__description {
+  width: 100%;
+  color: #222;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.04em;
+  border-left: 4px dashed #ffc53d;
+  padding-left: 26px;
+}
+
+@media screen and (max-width: 900px) {
+  .gray__bg > h2 {
+    padding-left: 50px;
+  }
+
+  .main__box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .person__description {
+    border-top: 4px dashed #ffc53d;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gray__bg > h2 {
+    padding-left: 15px;
+  }
+
+  .person__data {
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+
+  .person__data > p {
+    font-size: 14px;
+  }
+
+  .person__description {
+    font-size: 14px;
+  }
+
+  .person__data > p > span {
+    word-wrap: break-word;
+  }
+
+  .main__box > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 38px 0 52px;
+    width: 100%;
+}
+
+.title__button {
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border: 0;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 50px;
+    min-width: 200px;
+    outline: none;
+    transition: transform .2s ease-in-out;
+}
+
+.title__button:hover {
+    background: white;
+    border: 1px solid #FFC53D;
+    color: #FFC53D;
+    transform: scale(1.02);
+}
+
+.title__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.title__paragraph {
+    color: #222222;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    div button:nth-child(2) {
+        margin-top: 20px;
+    }
+    .title__container {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .title__button {
+        min-width: 100px;
+    }
+    .title__container {
+        max-width: 320px;
+        padding: 0 12px;
+    }
+}
