@@ -1,4 +1,4 @@
-# Pierwszy peojekt
+# Pierwszy projekt
 
 Projekt interfejsu strony wykonany na podstawie przykładowego wyglądu, udostępnionego w treści zadania.
 
