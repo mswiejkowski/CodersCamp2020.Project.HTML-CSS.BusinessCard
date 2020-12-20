@@ -112,7 +112,7 @@
     word-wrap: break-word;
   }
 
-  .main__box > div > img {
+  .main__box>div > img {
     margin-top: 20px;
     margin-bottom: 20px;
   }
